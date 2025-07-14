@@ -1,0 +1,88 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5ad7d5d;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f5ad7d5d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+/*estilo a los enlaces*/
+nav ul li a {
+    color: white;
+    text-decoration: none;/*elimina el subrayado*/
+}
+section {
+    color: bisque;
+    padding: 20px;
+}
+footer {
+    background-color: #f5ad5d5d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.imagen img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url('imagenes/fondoR.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+
+ table {
+    width: 90%;
+    margin: 0 auto 30px auto;
+    border-collapse: collapse;
+}
+/*estilos para encabezados y celdas normales*/
+th, td {
+    /*borde en cada celda*/
+    border: 1px solid;
+    /*espacio interno para que no se vea pegado al borde*/
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f39c12;
+    color: white;
+}
+td {
+    background-color:#c57641;
+}
+.volver {
+    /*bloque que ocupa todo el ancho limitado por el width*/
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #d35400;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+/*estilo al pasar el cursor por encima.*/
+.volver:hover {
+    background-color: #e67e22;
+}
+
